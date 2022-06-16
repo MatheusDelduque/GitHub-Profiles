@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0; 
+    background: rgb(25, 23, 34);
+}
+
+.light-mode{
+    margin: 0;
+    padding: 0; 
+    background: white;
+}
+
+.header {
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    min-height: 25vh;
+    gap: 20px;
+    background: rgb(15, 12, 24);
+    margin: none;
+}
+
+.title {
+    font-size: 5em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background: rgb(15, 12, 24);
+}
+
+.button1 {
+    color: white;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    width: 100px;
+    font-size: 15px;
+    color: inherit;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px rgb(25, 23, 34);
+    margin-left: 60%;
+}
+
+.button1:active {
+    box-shadow: 0 0 0 0 rgb(25, 23, 34), inset 2px 2px 2px rgb(25, 23, 34);
+    transform: translate(2px, 2px);
+}
+
+.icon {
+    width: 15%;
+    height: 50%;
+    background-color: rgb(15, 12, 24);
+}
+
+
+
+.input {
+    padding: 5px;
+    margin-top: 50px;
+    margin-left: 20%;
+    color: black;
+    border-radius: 9999em;
+    border-color: white;
+}
+
+.button2 {
+    color: white;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    width: 80px;
+    font-size: 18px;
+    color: inherit;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px rgb(25, 23, 34);
+}
+
+.button2:active {
+    box-shadow: 0 0 0 0 rgb(25, 23, 34), inset 2px 2px 2px rgb(25, 23, 34);
+    transform: translate(2px, 2px);
+}
+
+.span{
+    color: rgb(133, 63, 63);
+    margin-left: 10px;
+}
+
+.subcontainer {
+    margin-top: 3%;
+    margin-left: 25%;
+    color: white;
+}
+
+.image {
+    width: 15%;
+    height: 40%;
+}
+
+
