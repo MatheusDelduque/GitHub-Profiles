@@ -26,7 +26,7 @@ const userFormat = (user, stars) => {
 }
 
 //Ordenando por ordem decrescente e pegando os amount primeiros valores
-const getBestRepos = (repositories, amount = 4) => {
+const getBestRepository = (repositories, amount = 4) => {
     return repositories
         .sort((first, second) => second.stargazers_count - first.stargazers_count)
         .slice(0, amount)
@@ -47,7 +47,7 @@ const searchUsers = async () => {
     const repositories = await dadosRepos.json()
 
     
-    const bestRepos = getBestRepos (repositories)
+    const bestRepos = getBestRepository (repositories)
     userFormat(user, bestRepos)
 }
 
@@ -56,14 +56,3 @@ document.addEventListener("keypress", (e) => {
         searchUsers()
     }
 })
-
-const header = document.getElementsByClassName("header")
-const icon = document.getElementsByClassName("icon")
-const title = document.getElementsByClassName("title")
-const button = document.getElementById("button")
-const body = document.body.classList.toggle("light-mode")
-
-
-const handleMode = () => {
-    document.body.classList.toggle("light-mode")
-}
