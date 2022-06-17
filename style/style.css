@@ -4,12 +4,6 @@ body{
     background: rgb(25, 23, 34);
 }
 
-.light-mode{
-    margin: 0;
-    padding: 0; 
-    background: white;
-}
-
 .header {
     display: flex;
     flex-direction: center;
