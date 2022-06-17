@@ -63,9 +63,7 @@ const title = document.getElementsByClassName("title")
 const button = document.getElementById("button")
 const body = document.body.classList.toggle("light-mode")
 
-button.textContent = "Dark Mode"
 
 const handleMode = () => {
     document.body.classList.toggle("light-mode")
-    {button.textContent == "Dark Mode" ? button.textContent == "Light Mode": button.textContent == "Dark Mode"}
 }
